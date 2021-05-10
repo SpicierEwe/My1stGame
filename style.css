@@ -1,0 +1,184 @@
+/* html {
+  background-image: linear-gradient(
+    to right,
+    rgb(190, 166, 27),
+    rgb(50, 50, 160)
+  ); */
+/* } */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+body {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to right, rgb(190, 166, 27), rgb(50, 50, 160));
+}
+/* Guess the NUmber */
+.mh {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Space Mission";
+}
+
+/* between 1-20 */
+.instruction {
+  display: inline;
+  text-align: right;
+  top: -115px;
+  background-color: red;
+  border-radius: 8px;
+  padding: 5px;
+
+  left: 800px;
+  font-size: 150%;
+}
+.secretnumber {
+  display: inline-block;
+  text-align: center;
+  border: 3px solid red;
+  width: 150px;
+  padding: 20px;
+  right: -190px;
+  top: 20px;
+  background-color: lightseagreen;
+  border-radius: 25px;
+  font-family: "Press Start 2P";
+}
+.secretnumber:hover {
+  background-color: tomato;
+}
+
+.line {
+  border: 3px solid black;
+  top: 150px;
+  background-color: rgb(0, 0, 0);
+}
+.btn2 {
+  top: -310px;
+  font-size: 25px;
+  font-family: Odibee Sans;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(66, 150, 91);
+}
+.btn2:hover {
+  background-color: red;
+}
+.rightside {
+  display: block;
+  width: 500px;
+  display: block;
+  margin-left: 200px;
+  margin-right: -50;
+  float: right;
+  right: 50px;
+  font-size: 150%;
+  top: -115px;
+  /* background-color: crimson; */
+}
+form {
+  top: 110px;
+  left: 25px;
+}
+input {
+  text-align: center;
+  font-family: "Press Start 2P";
+  max-width: 250px;
+  padding: 10px;
+  font-size: 300%;
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 3px rgba(0, 0, 0, 0.08);
+  background-color: beige;
+  cursor: pointer;
+  left: 25px;
+  /* background-color: white; */
+  /* color: rgb(168, 29, 106); */
+  /* box-shadow: 5px 2px rgba(1, 1, 0.2); */
+}
+.message {
+  margin-bottom: 50px;
+  font-family: cursive;
+  font-weight: lighter;
+  color: rgb(38, 241, 130);
+}
+
+.userscore,
+.userhighscore {
+  margin-bottom: 10px;
+  font-family: Odibee Sans;
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+}
+.userhighscore:hover {
+  color: rgb(151, 38, 204);
+}
+.userscore:hover {
+  color: rgb(8, 32, 139);
+}
+
+.mainbutton {
+  font-size: 150%;
+  margin-top: 20px;
+  left: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(133, 204, 74);
+  /* color: beige; */
+}
+.mainbutton:hover {
+  background-color: darkorange;
+  color: rgb(190, 54, 54);
+}
+.scorevalue {
+  top: -47px;
+  left: 100px;
+  color: orange;
+  font-family: "ariel";
+  font-weight: bold;
+}
+.highscorevalue {
+  top: -51px;
+  left: 150px;
+  color: orange;
+  font-family: ariel;
+  font-weight: bolder;
+}
+.scorevalue:hover {
+  color: rgb(45, 255, 210);
+}
+.highscorevalue:hover {
+  color: crimson;
+}
+.lable1 {
+  font-weight: bold;
+  top: -25px;
+  left: 10px;
+  font-family: "Press Start 2P";
+}
+.bb {
+  font-size: 10px;
+}
+.rip {
+  font-size: 100%;
+  /* text-align: center; */
+  font-weight: bold;
+  bottom: -120px;
+  right: -360px;
+}
+.border2 {
+  border: 3px solid black;
+  bottom: -100px;
+  border-top: none;
+}
+footer {
+  max-width: 210px;
+  bottom: -100px;
+  background-color: rgb(219, 119, 119);
+}

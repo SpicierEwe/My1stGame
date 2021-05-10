@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts end -->
+    <link rel="stylesheet" href="style.css" type=text/css />
+    <title>Game 1-20</title>
+  </head>
+  <body>
+    <!-- Border -->
+    <div class="line"></div>
+    <!-- main heading -->
+    <h1 class="mh">Guess The Number</h1>
+
+    <!-- instructions -->
+    <p class="instruction">Only Between 1 - 20</p>
+    <!-- form START -->
+
+    <!-- Secret Number -->
+    <h1 class="secretnumber">?</h1>
+    <form>
+      <!-- lable1 -->
+      <label class="lable1" for="j">Enter 👇👇 Number </label><br />
+      <!-- input -->
+      <input class="maininput" id="j" type="number" min="0" max="30" /><br />
+      <!-- Main button1 -->
+      <button id="j" class="mainbutton" type="button">Click !</button>
+    </form>
+    <div class="rightside">
+      <!-- Message -->
+      <h3 class="message">🔢Enter a Number!!!! 🔢</h3>
+      <!-- Score -->
+      <h2 class="userscore">Score :</h2>
+      <h3 class="scorevalue">20</h3>
+      <!-- HighScore -->
+      <h2 class="userhighscore">HighScore :</h2>
+      <h2 class="highscorevalue">0</h2>
+      <!-- form End -->
+    </div>
+    <!-- Button 2 -->
+    <button class="btn2" type="button">Again!</button>
+    <p class="border2"></p>
+    <p class="rip">
+      if you want to play with Numbers Between 1-30
+      <a href="2nd.html"> Click Me</a>
+    </p>
+
+    <footer>&copy; &reg; All Rights Reserved &trade;</footer>
+    <script src="scripts.js "></script>
+  </body>
+</html>
